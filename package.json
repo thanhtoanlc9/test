@@ -1,0 +1,47 @@
+{
+  "name": "xien5-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "build": "node ./bin/www",
+    "production": "PORT=80 node ./bin/www"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "bcrypt": "^1.0.3",
+    "body-parser": "~1.17.1",
+    "cheerio": "^1.0.0-rc.2",
+    "clone": "^2.1.1",
+    "compression": "^1.7.0",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "cron": "^1.2.1",
+    "dateformat": "^2.0.0",
+    "debug": "~2.6.3",
+    "excel4node": "^1.2.1",
+    "express": "~4.15.2",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^7.4.1",
+    "lodash": "^4.17.4",
+    "md5": "^2.2.1",
+    "moment": "^2.18.1",
+    "moment-timezone": "^0.5.13",
+    "mongoose": "^5.0.0",
+    "mongoose-double": "0.0.1",
+    "mongoose-float": "^1.0.2",
+    "morgan": "~1.8.1",
+    "nodemailer": "^4.1.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "request": "^2.81.0",
+    "serve-favicon": "~2.4.2",
+    "validator": "^8.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-uglify": "^3.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "nodemon": "^1.12.0"
+  }
+}
